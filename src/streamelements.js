@@ -24,7 +24,7 @@ export function listenEvents() {
     totalEvents = 0;
 
   window.addEventListener("onEventReceived", function (obj) {
-    log("overlay", "onEventReceived", { obj });
+    log("onEventReceived %O", { obj });
 
     if (!obj.detail.event) {
       return;
@@ -36,12 +36,10 @@ export function listenEvents() {
 
     const listener = obj.detail.listener.split("-")[0];
     const event = obj.detail.event;
-
-    console.log("received event", { event, listener });
   });
 
   window.addEventListener("onWidgetLoad", function (obj) {
-    log("overlay", "onWidgetLoad", { obj });
+    log("onWidgetLoad %O", { obj });
 
     let recents = obj.detail.recents;
 

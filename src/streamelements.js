@@ -1,3 +1,7 @@
+import debug from "debug";
+
+const log = debug("streamelements");
+
 export function listenEvents() {
   let eventsLimit = 5,
     userLocale = "en-US",
@@ -20,7 +24,7 @@ export function listenEvents() {
     totalEvents = 0;
 
   window.addEventListener("onEventReceived", function (obj) {
-    console.log("onEventReceived", { obj });
+    log("overlay", "onEventReceived", { obj });
 
     if (!obj.detail.event) {
       return;
@@ -37,6 +41,8 @@ export function listenEvents() {
   });
 
   window.addEventListener("onWidgetLoad", function (obj) {
+    log("overlay", "onWidgetLoad", { obj });
+
     let recents = obj.detail.recents;
 
     recents.sort(function (a, b) {

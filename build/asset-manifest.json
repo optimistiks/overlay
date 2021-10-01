@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/static/css/main.262a71fc.chunk.css",
-    "main.js": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/static/js/main.34b1c577.chunk.js",
-    "main.js.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/static/js/main.34b1c577.chunk.js.map",
-    "runtime-main.js": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/static/js/runtime-main.417e9d5c.js",
-    "runtime-main.js.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/static/js/runtime-main.417e9d5c.js.map",
-    "static/js/2.eee00fad.chunk.js": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/static/js/2.eee00fad.chunk.js",
-    "static/js/2.eee00fad.chunk.js.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/static/js/2.eee00fad.chunk.js.map",
-    "index.html": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/index.html",
-    "static/css/main.262a71fc.chunk.css.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/static/css/main.262a71fc.chunk.css.map",
-    "static/js/2.eee00fad.chunk.js.LICENSE.txt": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/static/js/2.eee00fad.chunk.js.LICENSE.txt"
+    "main.css": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/css/main.262a71fc.chunk.css",
+    "main.js": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/main.34b1c577.chunk.js",
+    "main.js.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/main.34b1c577.chunk.js.map",
+    "runtime-main.js": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/runtime-main.44475641.js",
+    "runtime-main.js.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/runtime-main.44475641.js.map",
+    "static/js/2.eee00fad.chunk.js": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/2.eee00fad.chunk.js",
+    "static/js/2.eee00fad.chunk.js.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/2.eee00fad.chunk.js.map",
+    "index.html": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/index.html",
+    "static/css/main.262a71fc.chunk.css.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/css/main.262a71fc.chunk.css.map",
+    "static/js/2.eee00fad.chunk.js.LICENSE.txt": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/2.eee00fad.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.417e9d5c.js",
+    "static/js/runtime-main.44475641.js",
     "static/js/2.eee00fad.chunk.js",
     "static/css/main.262a71fc.chunk.css",
     "static/js/main.34b1c577.chunk.js"

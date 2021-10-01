@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/css/main.262a71fc.chunk.css",
-    "main.js": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/main.dedc0dc1.chunk.js",
-    "main.js.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/main.dedc0dc1.chunk.js.map",
+    "main.js": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/main.b6e1d40a.chunk.js",
+    "main.js.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/main.b6e1d40a.chunk.js.map",
     "runtime-main.js": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/runtime-main.44475641.js",
     "runtime-main.js.map": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/runtime-main.44475641.js.map",
     "static/js/2.c2e03b4c.chunk.js": "https://cdn.jsdelivr.net/gh/optimistiks/overlay@master/build/static/js/2.c2e03b4c.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.44475641.js",
     "static/js/2.c2e03b4c.chunk.js",
     "static/css/main.262a71fc.chunk.css",
-    "static/js/main.dedc0dc1.chunk.js"
+    "static/js/main.b6e1d40a.chunk.js"
   ]
 }

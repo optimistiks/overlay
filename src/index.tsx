@@ -4,8 +4,8 @@ import debug from "debug";
 import { Overlay } from "./Overlay";
 // import reportWebVitals from './reportWebVitals';
 
-localStorage.debug = "*";
 debug.log = console.log.bind(console);
+debug.enable("*");
 
 ReactDOM.render(
   <React.StrictMode>

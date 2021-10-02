@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/Overlay.module.css"],"names":[],"mappings":"AAAA,qBACI,eAAiB,CACjB,cACJ","file":"main.262a71fc.chunk.css","sourcesContent":[".text {\n    font-weight: bold;\n    background: red;\n}\n"]}

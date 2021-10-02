@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import debug from "debug";
 import { Overlay } from "./Overlay";
+import "./index.css";
 // import reportWebVitals from './reportWebVitals';
 
 debug.log = console.log.bind(console);

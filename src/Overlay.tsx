@@ -10,19 +10,19 @@ const log = debug("overlay");
 
 const SOUND_ASSEMBLE_URL = `${process.env.PUBLIC_URL}/assemble.mp3`;
 
-const animatorGeneral = { duration: { enter: 200, exit: 200 } };
+const animatorGeneral = { duration: { enter: 1000 } };
 const audioSettings = { common: { volume: 0.25 } };
 const playersSettings = { assemble: { src: [SOUND_ASSEMBLE_URL], loop: true } };
 const bleepsSettings = { assemble: { player: "assemble" } };
 
 export function Overlay() {
   const [data, setData] = useState(null);
-  const [activate, setActivate] = React.useState(true);
+  const [activate, setActivate] = React.useState(false);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setActivate(!activate), 2000);
+    const timeout = setTimeout(() => setActivate(true), 1000);
     return () => clearTimeout(timeout);
-  }, [activate]);
+  }, []);
 
   useEffect(() => {
     if (window.onWidgetLoadInitialData) {

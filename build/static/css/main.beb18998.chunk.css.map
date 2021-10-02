@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/Overlay.module.css"],"names":[],"mappings":"AAKA,8CACI,UAAW,CACX,WACJ","file":"main.beb18998.chunk.css","sourcesContent":[".root {\n    width: 100%;\n    height: 100%;\n}\n\n.frameBox {\n    width: 100%;\n    height: 100%;\n}\n"]}

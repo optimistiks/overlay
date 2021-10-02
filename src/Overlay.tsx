@@ -1,19 +1,13 @@
 import React, { useEffect, useState } from "react";
 import debug from "debug";
 import { ArwesThemeProvider, StylesBaseline, FrameBox } from "@arwes/core";
-import { BleepsProvider } from "@arwes/sounds";
 import { AnimatorGeneralProvider } from "@arwes/animation";
 import styles from "./Overlay.module.css";
 import { listenEvents } from "./streamelements";
 
 const log = debug("overlay");
 
-const SOUND_ASSEMBLE_URL = `${process.env.PUBLIC_URL}/assemble.mp3`;
-
 const animatorGeneral = { duration: { enter: 1000 } };
-const audioSettings = { common: { volume: 0.25 } };
-const playersSettings = { assemble: { src: [SOUND_ASSEMBLE_URL], loop: true } };
-const bleepsSettings = { assemble: { player: "assemble" } };
 
 export function Overlay() {
   const [data, setData] = useState(null);
@@ -42,21 +36,55 @@ export function Overlay() {
   return (
     <div className={styles.root}>
       <ArwesThemeProvider>
-        <BleepsProvider
-          audioSettings={audioSettings}
-          playersSettings={playersSettings}
-          bleepsSettings={bleepsSettings}
-        >
-          <StylesBaseline />
-          <AnimatorGeneralProvider animator={animatorGeneral}>
-            <FrameBox
-              // @ts-ignore
-              className={styles.frameBox}
-              animator={{ activate }}
-              hover
-            />
-          </AnimatorGeneralProvider>
-        </BleepsProvider>
+        <StylesBaseline />
+        <AnimatorGeneralProvider animator={animatorGeneral}>
+          <div className={styles.grid}>
+            <div className={styles.grid__camera}>
+              {/* @ts-ignore */}
+              <FrameBox
+                // @ts-ignore
+                className={styles.frameBox}
+                animator={{ activate }}
+                hover
+              >
+                camera
+              </FrameBox>
+            </div>
+            <div className={styles.grid__topbar}>
+              {/* @ts-ignore */}
+              <FrameBox
+                // @ts-ignore
+                className={styles.frameBox}
+                animator={{ activate }}
+                hover
+              >
+                topbar
+              </FrameBox>
+            </div>
+            <div className={styles.grid__sidebar}>
+              {/* @ts-ignore */}
+              <FrameBox
+                // @ts-ignore
+                className={styles.frameBox}
+                animator={{ activate }}
+                hover
+              >
+                sidebar
+              </FrameBox>
+            </div>
+            <div className={styles.grid__video}>
+              {/* @ts-ignore */}
+              <FrameBox
+                // @ts-ignore
+                className={styles.frameBox}
+                animator={{ activate }}
+                hover
+              >
+                video
+              </FrameBox>
+            </div>
+          </div>
+        </AnimatorGeneralProvider>
       </ArwesThemeProvider>
     </div>
   );
